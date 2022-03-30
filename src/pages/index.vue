@@ -19,9 +19,9 @@
 	>
 		<div>
 			<h2>Why?</h2>
-			<span><strong>[⭐] Simple to Use</strong></span> <br />
+			<span><strong>[⭐] Simple and easy to Use</strong></span> <br />
 			<span><strong>[🔑] Writen on TypeScript</strong></span> <br />
-			<span><strong>[⚙] 100% Promise-based</strong></span> <br />
+			<span><strong>[⚙] 70% Promise-based</strong></span> <br />
 			<span><strong>[🙂] Built in Declarations</strong></span> <br />
 			<span><strong>[👍] Discord.JS v13</strong></span> <br />
 		</div>

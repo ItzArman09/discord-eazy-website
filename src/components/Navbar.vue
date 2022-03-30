@@ -20,7 +20,7 @@
 						"
 						active-class="bg-discord-blurple-600"
 					>
-						discordjs-handler
+						discord-eazy
 					</router-link>
 
 					<router-link
@@ -65,7 +65,7 @@
 					</a>
 
 					<a
-						:href="`https://discord.gg/invite/zsTgXs24k2`"
+						:href="`https://discord.gg/invite/rCuSJT6zuh`"
 						class="
 							text-gray-200
 							hover:bg-discord-blurple-630 hover:text-white
@@ -278,7 +278,7 @@
 								font-semibold
 							"
 							@click="isOpen = !isOpen"
-							>discordjs-handler</router-link
+							>discord-eazy</router-link
 						>
 
 						<router-link
@@ -316,7 +316,7 @@
 						/></a>
 
 						<a
-							:href="`https://discord.gg/invite/zsTgXs24k2`"
+							:href="`https://discord.gg/invite/rCuSJT6zuh`"
 							class="
 								text-gray-200
 								hover:bg-discord-blurple-630 hover:text-white

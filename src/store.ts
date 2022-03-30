@@ -78,12 +78,12 @@ export const store = createStore<State>({
 			const noop = () => {};
 
 			const [fetchedDownloads, fetchedStars, fetchedContributors] = await Promise.all([
-				fetch('https://api.npmjs.org/downloads/range/2021-06-27:2100-08-21/@badboy-discord/discordjs-handler').then(
+				fetch('https://api.npmjs.org/downloads/range/2021-06-27:2100-08-21/discord-eazy').then(
 					toJSON,
 					noop,
 				),
-				fetch('https://api.github.com/repos/discordjs-handler/source').then(toJSON, noop),
-				fetch('https://api.github.com/repos/discordjs-handler/source/stats/contributors').then(toJSON, noop),
+				fetch('https://api.github.com/repos/ItzArman09/discord-eazy').then(toJSON, noop),
+				fetch('https://api.github.com/repos/ItzArman09/discord-eazy/stats/contributors').then(toJSON, noop),
 			]);
 
 			if (fetchedDownloads) {

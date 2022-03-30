@@ -1,7 +1,7 @@
 {
-	"name": "discord-moderation-website",
-	"version": "3.0.0",
-	"description": "The website housing documentation for discord-moderation",
+	"name": "discord-eazy-website",
+	"version": "0.0.0-development",
+	"description": "The website housing documentation for discord-website",
 	"scripts": {
 		"lint": "eslint src --ext .ts,.vue",
 		"lint:fix": "eslint src --ext .ts,.vue --fix",

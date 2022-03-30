@@ -5,9 +5,9 @@ import DocsSource from './DocsSource';
 const branchBlacklist = new Set(['docs']);
 export default new DocsSource({
 	id: 'main',
-	name: 'DJS-Handler',
-	repo: 'discordjs-handler/source',
-	defaultTag: 'stable',
+	name: 'DISCORD-EAZY',
+	repo: 'ItzArman09/discord-eazy-docs',
+	defaultTag: 'main',
 	branchFilter: (branch: string) => !branchBlacklist.has(branch) && !branch.startsWith('dependabot/'),
 	tagFilter: (tag: string) => semver.gte(tag, '9.0.0'),
 });
