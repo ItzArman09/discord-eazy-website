@@ -34,12 +34,12 @@ export default defineConfig({
 			manifest: {
 				theme_color: '#090a16',
 				background_color: '#090a16',
-				name: 'Discord.js Docs',
-				short_name: 'd.js Docs',
+				name: 'discord-eazy Docs',
+				short_name: 'ez-djs Docs',
 				start_url: '.',
 				display: 'standalone',
 				description:
-					"Discord.js is a powerful Node.js module that allows you to interact with the Discord API very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your bot's code significantly tidier and easier to comprehend.",
+					"Discord Eazy is a module that makes things simpler and easier.",
 				icons: [
 					{
 						src: '/android-chrome-192x192.png',
